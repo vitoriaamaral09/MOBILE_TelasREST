@@ -1,29 +1,44 @@
-# MoviesApp (Expo)
+# Projeto de Navegação Básica
 
-App de exemplo em React Native + Expo que demonstra:
-- Navegação com React Navigation (Native Stack)
-- Consumo de API REST (fetch)
+## Descrição
+Um projeto simples demonstrando navegação web básica e automação usando Selenium WebDriver. Este projeto ajuda a automatizar interações com o navegador e tarefas de navegação.
 
-Arquivos neste repositório prontos para subir no GitHub.
+## Funcionalidades
+- Automação de navegador
+- Comandos básicos de navegação
+- Exemplos de interação com páginas
+- Implementação do WebDriver
 
-## Como usar
+## Pré-requisitos
+- Java Development Kit (JDK)
+- Selenium WebDriver
+- Navegador web (Chrome, Firefox, etc.)
+- IDE (Eclipse, IntelliJ, etc.)
 
-1. Instale o Expo CLI (se necessário):
-   ```bash
-   npm install -g expo-cli
-   ```
-2. No diretório do projeto, instale dependências:
-   ```bash
-   npm install
-   npx expo install react-native-screens react-native-safe-area-context
-   ```
-   (ou `expo install ...` como preferir)
-3. Rode o app:
-   ```bash
-   npm start
-   ```
-4. No app você encontrará:
-   - Home (botão para Details)
-   - Details (botão para Movies)
-   - Movies (busca lista de filmes e exibe com FlatList)
+## Configuração
+1. Clone o repositório
+2. Instale as dependências necessárias
+3. Configure o WebDriver para seu navegador preferido
+4. Importe o projeto em sua IDE
 
+## Uso
+1. Abra o projeto em sua IDE
+2. Execute as classes de teste para ver a automação em ação
+3. Modifique os casos de teste de acordo com suas necessidades
+
+## Estrutura
+```
+BasicNavigation/
+├── src/
+│   └── test/
+│       └── java/
+│           └── [classes de teste]
+├── pom.xml
+└── README.md
+```
+
+## Contribuição
+Sinta-se à vontade para contribuir com este projeto enviando pull requests ou reportando problemas.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT.
